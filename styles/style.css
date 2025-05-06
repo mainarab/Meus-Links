@@ -94,10 +94,35 @@ a:hover{
 
 .panda{
     width: 50px;
-    position: absolute;
+    
     left: 0;
     transition: .5s;
-    
+    position: absolute;
 }
 
 
+/* Modo Dark */
+.botao.dark .panda{
+    left: 50px;
+}
+.botao.dark{
+    background-color: #7666CA;
+}
+
+body.dark{
+    background-color: #1A1A1A;
+}
+
+a.dark{
+    background-color: #7666CA;
+    color: #E8EDDF;
+}
+
+main.dark{
+    background-color: #29339B;
+}
+
+
+h1.dark, p.dark{
+    color: #E8EDDF;
+}
