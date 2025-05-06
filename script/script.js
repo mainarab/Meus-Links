@@ -1,5 +1,5 @@
 let Botao=document.getElementById('botao')
-let body=document.body
+let Corpo=document.body
 let GitHub =document.getElementsByTagName('a')[0]
 let Bahenace=document.getElementsByTagName('a')[1]
 let Linkedin=document.getElementsByTagName('a')[2]
@@ -12,7 +12,7 @@ let Panda= document.getElementById('panda')
 
 Botao.addEventListener('click', ()=>{
     Botao.classList.toggle('dark')
-    body.classList.toggle('dark')
+    Corpo.classList.toggle('dark')
     GitHub.classList.toggle('dark')
     Bahenace.classList.toggle('dark')
     Linkedin.classList.toggle('dark')
@@ -33,7 +33,3 @@ if(Panda.classList.toggle('dark')){
 }
     
 })
-
-
- /* Panda.setAttribute("src", "Images/HappyPanda.svg") */
-/*  Panda.setAttribute("src", "Images/HappyPanda.svg").classList.toggle('dark') */
